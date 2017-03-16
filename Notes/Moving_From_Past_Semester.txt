@@ -1,0 +1,57 @@
+Speech Analytics App - Moving forward with previous semesters' work
+========================================================================
+
+---------
+Abstract
+---------
+This document intends to give an overview of the work done by previous semesters, and what we wish to expand on this semester.
+
+--------------------------
+Previous Semester's Work
+--------------------------
+As of January 2017, speech analytics app "Stutr" has the following functionality:
+	
+	Speech algorithms:
+	* Stutter detection
+	* Filler word detection
+
+	UI:
+	* Primitive UI with count of number of stutters and filler words
+	* A very simple graph after the speech has been recorded
+
+--------------------------
+What are we doing then?
+--------------------------
+
+The speech analytics app lacks these key features, which we wish to implement:
+	
+	Code structure:
+
+	Speech algorithms:
+	* Stutter and filler word detection can not happen in parallel
+	* Additional detection of speech elements could be implemented
+	* App does not give real time feedback to the user.
+
+	UI/Code structure:
+	* The code isn't made to be very scalable. Almost all of the work is done from a single view controller
+	* UI is very primitive and information gathered isn't made very useful. A new and better statistics screen would be useful
+	* 
+
+
+
+--------------------------
+PLAN OF ACTION
+--------------------------
+
+For this initial part of the work, we will be dividing our team into two groups:
+	* GROUP 1) A group dedicated to speech processing algorithms
+	* GROUP 2)Another group dedicated to app structure, statistics, and UI view
+
+
+(GROUP 2 GOALS)
+
+- Rewrite project (class definitions, storyboards, screens) in Swift as demonstrated in the UML diagram
+
+- Provide skeletal structure for speech algorithms to run on. We should not worry about the speech algorithms working while doing this, mock fake data can be used.
+
+- Statistics
